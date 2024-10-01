@@ -33,15 +33,22 @@ html, body {
 
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background: url('background landing page.jpg') no-repeat center center/cover;
-        color: #fff;
-    }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('background landing page.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+/* Media query untuk HP */
+@media only screen and (max-width: 600px) {
+  body {
+    background: url('bg landing page hp.jpeg') no-repeat center center/cover;
+  }
+}
 
 .text{
   color: #ffffff;
